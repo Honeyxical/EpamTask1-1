@@ -3,7 +3,7 @@ package by.benikov;
 public class Task4 {
     public static void main(String[] args) {
         int x = 1, y = 1;
-        System.out.println(isBelong(x, y));
+        System.out.println(isBelong(-3, 3));
     }
 
     public static boolean isBelong(int x, int y){

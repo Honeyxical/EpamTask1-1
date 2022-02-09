@@ -9,7 +9,9 @@ public class Task5 {
     }
 
     public static double Exponentiation(double num){
-        if(num < 0) return Math.pow(num,4);
+        if(num < 0){
+            return Math.pow(num,4);
+        }
         return Math.pow(num,2);
     }
 }
