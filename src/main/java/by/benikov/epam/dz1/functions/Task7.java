@@ -1,4 +1,4 @@
-package by.benikov;
+package by.benikov.epam.dz1.functions;
 
 public class Task7 {
     public static void main(String[] args) {

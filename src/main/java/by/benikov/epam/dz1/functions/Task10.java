@@ -1,11 +1,6 @@
-package by.benikov;
+package by.benikov.epam.dz1.functions;
 
 public class Task10 {
-    public static void main(String[] args) {
-        int n = 100;
-        print(getMatrix(n));
-    }
-
     public static int[][] getMatrix(int n){
         int[][] array = new int[n][n];
         for (int i = 0; i < n; i++){
@@ -20,12 +15,12 @@ public class Task10 {
         return array;
     }
 
-    public static void print(int[][] array){
-        for(int i = 0; i < array.length; i++){
-            for (int j = 0; j < array.length; j++){
-                System.out.print(array[i][j] + "\t");
-            }
-            System.out.println("\n");
-        }
-    }
+//    public static void print(int[][] array){
+//        for(int i = 0; i < array.length; i++){
+//            for (int j = 0; j < array.length; j++){
+//                System.out.print(array[i][j] + "\t");
+//            }
+//            System.out.println("\n");
+//        }
+//    }
 }
