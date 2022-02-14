@@ -10,7 +10,6 @@ public class Input {
         return scanner.nextInt();
     }
 
-    //Можно ли так делать?
     public static int[] getArray() {
         Output.print("Enter size of array: ");
         int arSize = scanner.nextInt();
