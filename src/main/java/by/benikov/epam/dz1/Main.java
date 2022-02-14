@@ -16,7 +16,7 @@ public class Main {
         int num = Input.getNum("Enter a four-digit number:");
         Output.print(Task1.isEq(num));
 
-        // Task 4 За ранее прошу прощения
+        // Task 4
         Output.print(Task4.isBelong(Input.getNum("Enter the X coordinate: "), Input.getNum("Enter the Y coordinate: ")) ? "true" : "false");
 
         // Task 5
