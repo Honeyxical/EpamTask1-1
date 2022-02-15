@@ -1,4 +1,4 @@
-package by.benikov.epam.dz1.functions;
+package by.benikov.epam.dz1.function;
 
 public class Task8 {
     public static int getSum(int[] array, int k){

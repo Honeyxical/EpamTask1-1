@@ -1,9 +1,9 @@
-package by.benikov.epam.dz1.utils;
+package by.benikov.epam.dz1.utill;
 
 import java.util.Scanner;
 
 public class Input {
-    static Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
     public static int getNum(String message){
         Output.print(message);

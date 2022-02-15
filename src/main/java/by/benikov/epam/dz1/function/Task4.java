@@ -1,4 +1,4 @@
-package by.benikov.epam.dz1.functions;
+package by.benikov.epam.dz1.function;
 
 public class Task4 {
     public static boolean isBelong(int x, int y){

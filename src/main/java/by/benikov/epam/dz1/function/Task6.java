@@ -1,4 +1,4 @@
-package by.benikov.epam.dz1.functions;
+package by.benikov.epam.dz1.function;
 
 public class Task6 {
     public static int getMax(int num1, int num2, int num3) {

@@ -1,4 +1,4 @@
-package by.benikov.epam.dz1.functions;
+package by.benikov.epam.dz1.function;
 
 public class Task9 {
     public static int[] solution(int[] ar1, int[] ar2, int position) {

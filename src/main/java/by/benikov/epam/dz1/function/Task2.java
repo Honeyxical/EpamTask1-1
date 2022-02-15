@@ -1,4 +1,4 @@
-package by.benikov.epam.dz1.functions;
+package by.benikov.epam.dz1.function;
 
 public class Task2 {
     public static double solution(double a, double b, double c) {
