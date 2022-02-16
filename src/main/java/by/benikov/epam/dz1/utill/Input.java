@@ -13,7 +13,7 @@ public class Input {
     public static int[] getArray() {
         Output.print("Enter size of array: ");
         int arSize = scanner.nextInt();
-        if(isMZN(arSize)){
+        if(isValid(arSize)){
             int[] array = new int[arSize];
             int i;
             for(i = 0; i < arSize; i++){
@@ -25,7 +25,7 @@ public class Input {
         return getArray();
     }
 
-    private static boolean isMZN(int num){
+    private static boolean isValid(int num){
         return num > 0;
     }
 }
